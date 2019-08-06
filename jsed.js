@@ -36,6 +36,7 @@ if (!commander.text) {
 
 let replacer = () => replacerArg;
 if (!commander.string) {
+  replacer = replacerArg; // Use js's built in $&, $1-$n etc.
   try {
     let replacerFunc = eval('(' + replacerArg + ')');
     if (typeof replacerFunc === 'function') {
