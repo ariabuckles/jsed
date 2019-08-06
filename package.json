@@ -1,6 +1,6 @@
 {
   "name": "@ariabuckles/jsed",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "better sed, with js regexes & functions",
   "main": "jsed.js",
   "scripts": {

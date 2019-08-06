@@ -10,7 +10,7 @@ commander.usage('<search> <replacer>');
 commander.option('-f --file <file>', 'a file which to process; otherwise processes stdin');
 commander.option('-a --text', 'interpret the search arg as a string rather than a regex')
 commander.option('-s --string', 'interpret the replacer as a string even if it looks like a function');
-commander.option('-o --output', 'optional file to write to; otherwise writes to stdout');
+commander.option('-o --output <file>', 'optional file to write to; otherwise writes to stdout');
 commander.parse(process.argv);
 if (commander.args.length < 2) {
   commander.help(); // exits
