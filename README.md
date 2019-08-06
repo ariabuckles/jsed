@@ -16,3 +16,15 @@ Options:
   -o --output       optional file to write to; otherwise writes to stdout
   -h, --help        output usage information
 ```
+
+Examples:
+
+```
+> echo "use basic strings" | jsed "basic" "literal"
+use literal strings
+```
+
+```
+> echo "use regexes or funcs" | jsed '/\w+/g' "word=>'aaa'"
+aaa aaa aaa aaa
+```
