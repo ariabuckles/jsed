@@ -28,3 +28,8 @@ use literal strings
 > echo "use regexes or funcs" | jsed '/\w+/g' "word=>'aaa'"
 aaa aaa aaa aaa
 ```
+
+```
+> echo "use regexes without /s" | jsed '(regexes)' 'cool $1'
+use cool regexes without /s
+```
