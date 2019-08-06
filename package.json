@@ -1,0 +1,21 @@
+{
+  "name": "@ariabuckles/jsed",
+  "version": "1.0.0",
+  "description": "better sed, with js regexes & functions",
+  "main": "jsed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aria Buckles (https://github.com/ariabuckles)",
+  "license": "MIT",
+  "files": [
+    "jsed.js",
+    "README.md"
+  ],
+  "bin": {
+    "jsed": "jsed.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
