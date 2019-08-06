@@ -1,7 +1,7 @@
 # jsed
 better sed, with js regexes &amp; functions
 
-Installation: `npm install -g jsed`
+Installation: `npm install -g @ariabuckles/jsed`
 
 Usage:
 
