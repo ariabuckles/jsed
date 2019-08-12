@@ -33,3 +33,9 @@ aaa aaa aaa aaa
 > echo "use regexes without /s" | jsed '(regexes)' 'cool $1'
 use cool regexes without /s
 ```
+
+You can modify a file by specifying both `-o` and `-f` together:
+
+```
+> jsed -of test.txt 'search' 'replace'
+```
